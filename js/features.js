@@ -6,6 +6,8 @@ document.getElementById('cash-out-btn').addEventListener('click',function(){
 
     //hide add money
     document.getElementById('add-money-form').classList.add('hidden');
+   
+
 
 })
 
@@ -16,11 +18,20 @@ document.getElementById('add-money-btn')
     document.getElementById('cash-out-form').classList.add('hidden');
 
 
+
 })
+
+
+
+
+
+
+
 
 //doing transaction using function 
 document.getElementById('transaction-btn')
 .addEventListener('click',function(){
+    
 
     showSectionById('transaction-section'); 
 });

@@ -23,6 +23,8 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
            
 
            document.getElementById('transaction-container').appendChild(p);
+
+           
     }
     else {
         alert('Failed to add money');

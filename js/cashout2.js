@@ -16,6 +16,14 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
      document.getElementById('account-balance').innerText = newBalance;
 
 
+     const div = document.createElement('div');
+           
+           div.classList.add('bg-yellow-300');
+           
+           div.innerText = `Withdrawn: ${cashOut}  Tk. New Balance: ${newBalance}`;
+           
+           document.getElementById('transaction-container').appendChild(div);
+
 
 
     }
