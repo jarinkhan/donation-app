@@ -1,6 +1,6 @@
 document.getElementById('btn-cash-out').addEventListener('click',function(event){
     event.preventDefault()
-    console.log('cash out');
+
 
     const cashOut = document.getElementById('input-cash-out').value;
     const cashOutNumber = parseFloat(cashOut);

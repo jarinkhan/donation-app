@@ -17,3 +17,10 @@ document.getElementById('add-money-btn')
 
 
 })
+
+//doing transaction using function 
+document.getElementById('transaction-btn')
+.addEventListener('click',function(){
+
+    showSectionById('transaction-section'); 
+});
